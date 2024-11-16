@@ -1,0 +1,9 @@
+INFO:2024-11-11 17:44:43,560 - Student created: Bank Natan
+ERROR:2024-11-11 17:44:43,560 - Exception occurred: Birthdate '2025-05-25' is in the future.
+Traceback (most recent call last):
+  File "C:\Users\Natan\PycharmProjects\logerp-11.11.2024\2\main.py", line 54, in <module>
+    second_student = Student('Oleg', 'Palkin', '25.05.2025', 220)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Natan\PycharmProjects\logerp-11.11.2024\2\main.py", line 28, in __init__
+    raise ValueError(f"Birthdate '{self.birthdate.date()}' is in the future.")
+ValueError: Birthdate '2025-05-25' is in the future.
