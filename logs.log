@@ -1,9 +1,8 @@
-INFO:2024-11-16 17:23:08,676 - Student created: Bank Natan
-ERROR:2024-11-16 17:23:08,676 - Exception occurred: Birthdate '2025-05-25' is in the future.
-Traceback (most recent call last):
-  File "C:\Users\Natan\PycharmProjects\logerp-11.11.2024\2\main.py", line 54, in <module>
-    second_student = Student('Oleg', 'Palkin', '25.05.2025', 220)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Natan\PycharmProjects\logerp-11.11.2024\2\main.py", line 28, in __init__
-    raise ValueError(f"Birthdate '{self.birthdate.date()}' is in the future.")
-ValueError: Birthdate '2025-05-25' is in the future.
+DEBUG:2024-11-16 17:23:50,404 - Объект Animal создан: Имя=Шарик, Вид=Собака
+ERROR:2024-11-16 17:23:50,404 - Ошибка при создании объекта Animal: Дата рождения 2030-12-30 не может быть в будущем.
+ERROR:2024-11-16 17:23:50,404 - Исключение: Дата рождения 2030-12-30 не может быть в будущем.
+DEBUG:2024-11-16 17:23:50,404 - Информация об объекте Animal: Шарик
+Имя: Шарик
+Вид: Собака
+Дата рождения: 12.05.2015
+Вес: 15.5 кг
