@@ -1,5 +1,5 @@
-INFO:2024-11-18 14:38:41,376 - Student created: Bank Natan
-ERROR:2024-11-18 14:38:41,376 - Exception occurred: Birthdate '2025-05-25' is in the future.
+INFO:2024-11-18 14:39:36,164 - Student created: Bank Natan
+ERROR:2024-11-18 14:39:36,164 - Exception occurred: Birthdate '2025-05-25' is in the future.
 Traceback (most recent call last):
   File "C:\Users\Natan\PycharmProjects\logerp-11.11.2024\2\main.py", line 54, in <module>
     second_student = Student('Oleg', 'Palkin', '25.05.2025', 220)
